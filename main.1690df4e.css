@@ -1,0 +1,29 @@
+
+.container[data-v-586711] {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+input[type=text][data-v-586711] {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: center;
+  font-family: monospace;
+  flex: 1;
+  opacity: .3;
+  transition: all ease .7s;
+}
+input[type=text][data-v-586711]:focus {
+  opacity: 1;
+}
