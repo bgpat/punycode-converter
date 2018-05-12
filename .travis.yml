@@ -24,6 +24,7 @@ before_deploy:
 - git remote set-url origin ${GIT_URL}
 - git fetch origin gh-pages:remotes/origin/gh-pages
 - git worktree add -B gh-pages public origin/gh-pages
+- mv public/CNAME dist/
 - rm -rf public/*
 - mv dist/* public/
 - cd public
