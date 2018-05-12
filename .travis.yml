@@ -7,8 +7,6 @@ env:
   - GIT_AUTHOR_EMAIL=bgpat@users.noreply.github.com
   - GIT_AUTHOR_NAME=bgpat
   - GIT_URL=git@github.com:bgpat/pynycode-converter.git
-  # DEPLOY_KEY
-  - secure: "W0UhXzeJrQV+lGzzD3ZuWqHz9Riwu4kp6KVJLHq7mzW/kbBK+LQvsTn8MQ/gyLoFD2s7v9HYB1ziWqTiDU6mER+/7nIyP/F+G4Xnu+rmanJkr2bTBnTmdqNcaIBcBN1c1peGaO0g5g6jOthh4HgF8vCDQt4ncakncYv3eYljqubg1NmiLGlVhk8s8VA/JlhZ8y16sAu8JazitaEWvQmi1W8hzB+bMA1UaasqhxREK9oaDY7YjsBFm5DEoouIZR5U0pCpm7h2TV6nwYGR1rMk/Zf+qZ6Tph1yLygwUDoSPzmsYIGyjRAh2aJ1F9D+odorHThNIAqEpwW4RU36gi7awtRNyzyDUmtIyejlMOzPTQvDhW4lQKM0XzhjUgmmMRKgXm7gvwHO4nfSdjS+mxpfhPohm12jFBrQqGJKHlEaeSZey+soXZxAD2drn0CziNE3/euWe4NWhINxIqZeOtwB9PT9VLH9YSZH8giBhu78V0DCRJTdm8IZ1oQIb4ZADva3leN4Rh4EoH7TIBrAdOFJgqRFKdW22FPvYwsUkJFpkgHzx+PsZZvuuD19dW1IWRAqC8rYPY6QRMBgYEo528cOomX3X7jbvKNBS5thOrVQ/RiwFvvRt9lBkaDH5rGiSo8m0jQnVAwhFSEgRuTuyr+ZHtX7ZYsY60enmPzyhcqcO1g="
 
 install:
 - npm install
