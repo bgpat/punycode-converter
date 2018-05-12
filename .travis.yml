@@ -19,7 +19,7 @@ script:
 
 before_deploy:
 - mkdir -p ~/.ssh
-- echo $DEPLOY_KEY > ~/.ssh/id_ed25519
+- echo $DEPLOY_KEY | base64 -d > ~/.ssh/id_ed25519
 - chmod 600 ~/.ssh/id_ed25519
 - git remote set-url origin ${GIT_URL}
 - git fetch origin gh-pages:remotes/origin/gh-pages
