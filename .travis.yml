@@ -34,7 +34,5 @@ deploy:
   skip_cleanup: true
   provider: script
   script: git push origin gh-pages -f
-  on:
-    all_branches: true
-# on:
-#   branch: master
+on:
+  branch: master
