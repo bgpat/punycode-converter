@@ -30,6 +30,6 @@
   "dependencies": {
     "punycode": "^2.1.1",
     "vue": "^2.5.16",
-    "vue-hot-reload-api": "^2.3.0"
+    "vue-hot-reload-api": "^2.3.4"
   }
 }
