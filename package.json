@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "punycode": "^2.1.1",
-    "vue": "^3.2.43",
+    "vue": "^3.2.44",
     "vue-hot-reload-api": "^2.3.4"
   }
 }
