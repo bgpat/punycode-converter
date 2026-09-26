@@ -30,7 +30,7 @@
     "babel-jest": "^30.0.0",
     "eslint": "^10.0.0",
     "eslint-plugin-vue": "^10.0.0",
-    "globals": "^16.0.0",
+    "globals": "^17.0.0",
     "jest": "^30.0.0",
     "parcel-bundler": "1.12.5",
     "vue-eslint-parser": "^10.3.0",
