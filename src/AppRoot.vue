@@ -46,7 +46,7 @@ export default {
     addEventListener('hashchange', this.update, false);
     addEventListener('resize', this.resize, false);
   },
-  destroyed() {
+  unmounted() {
     removeEventListener('hashchange', this.update, false);
     removeEventListener('resize', this.resize, false);
   },
