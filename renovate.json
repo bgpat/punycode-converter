@@ -1,7 +1,18 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
   "automerge": true,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "eslint",
+        "eslint-plugin-vue",
+        "vue-eslint-parser",
+        "@eslint/js"
+      ]
+    }
+  ]
 }
